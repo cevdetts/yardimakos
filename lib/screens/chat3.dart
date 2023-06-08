@@ -23,7 +23,7 @@ class Chat3 extends StatelessWidget {
                 Padding(
                   padding: EdgeInsets.only(left: 10),
                   child: Text(
-                    "Dr.Abuzer Kömürcü",
+                    "Dr.aAbuzer Kömürcü",
                     style: TextStyle(
                       color: Colors.white,
                     ),
