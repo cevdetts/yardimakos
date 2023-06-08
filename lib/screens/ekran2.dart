@@ -2,31 +2,31 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class Ekran2 extends StatelessWidget {
-  List imgs = [
+  final List imgs = [
     "user7.jpg",
     "user8.jpg",
     "user6.jpg",
     "user9.jpg",
   ];
-  List<String> userNames = [
+  final List<String> userNames = [
     "Büşra Gündüz",
     "Furkan Aktaş",
     "Melisa Dağ",
     "Ceyhun Cankat",
   ];
-  List<String> userquotes = [
+  final List<String> userquotes = [
     "Titiz ve profesyonel ilgi.",
     "Tedavim çok rahat geçti",
     "Harika sohbeti ve tedavi anlayışı ile süper",
     "Teşekkürler",
   ];
-  List<String> userrates = [
+  final List<String> userrates = [
     "4.5",
     "4.9",
     "4.7",
     "4.8",
   ];
-  List<String> userdays = [
+  final List<String> userdays = [
     "1 gün önce",
     "3 gün önce",
     "1 hafta önce",

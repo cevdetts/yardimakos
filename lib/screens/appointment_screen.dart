@@ -1,32 +1,33 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:yardimakos/screens/schedule_screen.dart';
 
 class AppointmentScreen extends StatelessWidget {
-  List imgs = [
+  final List imgs = [
     "user4.jpg",
     "user3.jpg",
     "user6.jpg",
     "user1.jpg",
   ];
-  List<String> userNames = [
+  final List<String> userNames = [
     "Nergis Delen",
     "Emir Taşkın",
     "Gizem Saka",
     "Zafer Tunca",
   ];
-  List<String> userquotes = [
+  final List<String> userquotes = [
     "Çok başarılı bir doktor.",
     "Gayet Memnunum",
     "Sohbeti ve tedaviyi aynı anda yürütebiliyor.",
     "Harika!",
   ];
-  List<String> userrates = [
+  final List<String> userrates = [
     "4.5",
     "4.9",
     "4.7",
     "4.8",
   ];
-  List<String> userdays = [
+  final List<String> userdays = [
     "1 gün önce",
     "3 gün önce",
     "1 hafta önce",
@@ -353,7 +354,13 @@ class AppointmentScreen extends StatelessWidget {
             ),
             SizedBox(height: 15),
             InkWell(
-              onTap: () {},
+              onTap: () {
+                // Navigate to ScheduleScreen
+                //Navigator.push(
+                //  context,
+                //  MaterialPageRoute(builder: (context) => ScheduleScreen()),
+                //);
+              },
               child: Container(
                 width: MediaQuery.of(context).size.width,
                 padding: EdgeInsets.symmetric(vertical: 18),

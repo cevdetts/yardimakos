@@ -11,7 +11,7 @@ import 'package:yardimakos/service/auth_service.dart';
 class HomeScreen extends StatelessWidget {
   HomeScreen({Key? key}) : super(key: key);
 
-  List symptoms = [
+  final List symptoms = [
     "Psikoloji",
     "Sakatlık",
     "Acil Yardım",
@@ -19,25 +19,25 @@ class HomeScreen extends StatelessWidget {
     "Bilgi",
   ];
 
-  List imgs = [
+  final List imgs = [
     "doctor1.jpg",
     "doctor2.jpg",
     "doctor3.jpg",
     "doctor4.jpg",
   ];
-  List<String> doctorNames = [
+  final List<String> doctorNames = [
     "Dr. Ayşe Yılmaz",
     "Dr. Büşra Çakar",
     "Dr. Abuzer Kömürcü",
     "Dr. Berkay Tan",
   ];
-  List<String> doctormeslek = [
+  final List<String> doctormeslek = [
     "Terapist",
     "Fizik Tedavi",
     "Ruh ve Sinir hastalıkları",
     "Çocuk hastalıkları",
   ];
-  List<String> rating = [
+  final List<String> rating = [
     "4.7",
     "4.3",
     "5.0",

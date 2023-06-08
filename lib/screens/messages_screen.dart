@@ -5,7 +5,7 @@ import 'package:yardimakos/screens/chat4.dart';
 import 'package:yardimakos/screens/chat_screen.dart';
 
 class MessagesScreen extends StatelessWidget {
-  List imgs = [
+  final List imgs = [
     "doctor1.jpg",
     "doctor2.jpg",
     "doctor3.jpg",
@@ -13,7 +13,7 @@ class MessagesScreen extends StatelessWidget {
     "doctor1.jpg",
     "doctor2.jpg",
   ];
-  List<String> doctorNames = [
+  final List<String> doctorNames = [
     "Dr. Ayşe Yılmaz",
     "Dr. Büşra Çakar",
     "Dr. Abuzer Kömürcü",
