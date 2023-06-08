@@ -12,7 +12,7 @@ class Ekran2 extends StatelessWidget {
     "Büşra Gündüz",
     "Furkan Aktaş",
     "Melisa Dağ",
-    "Ceyhuuuun Cankat",
+    "Ceyhun Cankat",
   ];
   final List<String> userquotes = [
     "Titiz ve profesyonel ilgi.",
