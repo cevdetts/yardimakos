@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "686436396985",
+    "project_id": "yardimakos-7b7cd",
+    "storage_bucket": "yardimakos-7b7cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686436396985:android:1db7f7e53378470c4a1068",
+        "android_client_info": {
+          "package_name": "com.cevdetts.yardimakos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "686436396985-i83h52mch9dbceih1htoe3srrqs4gc8k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD56t41nsuXDHvqzmz0XZsy0C6LFv1sLwg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "686436396985-i83h52mch9dbceih1htoe3srrqs4gc8k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
